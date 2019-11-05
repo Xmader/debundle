@@ -1,3 +1,10 @@
+var types = require("ast-types");
+var def = types.Type.def;
+
+def("Super")
+  .bases("Expression")
+  .build();
+
 var recast   = require('recast')
 var traverse = recast.types.traverse
 var build    = recast.types.builders
