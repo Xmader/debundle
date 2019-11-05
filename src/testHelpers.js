@@ -27,6 +27,10 @@ function generateFunction(...body) {
       type: 'BlockStatement',
       body,
     },
+    async: false,
+    expression: false,
+    generator: false,
+    rest: null,
   };
 }
 
@@ -45,6 +49,10 @@ function generateMangledFunction(...body) {
       type: 'BlockStatement',
       body,
     },
+    async: false,
+    expression: false,
+    generator: false,
+    rest: null,
   };
 }
 

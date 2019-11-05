@@ -29,7 +29,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "promise-map-series": "^0.2.3",
-    "recast": "~0.5.7"
+    "recast": "~0.7.5"
   },
   "devDependencies": {
     "mocha": "^6.2.2",
